@@ -1,0 +1,18 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.foto {
+    background-image: url("img/droga-las.jpg");
+    background-repeat: round;
+    background-size: 100px;
+    background-color: azure;
+    width: 400px;
+    height: 300px;
+    resize: both;
+    overflow: auto;
+}
